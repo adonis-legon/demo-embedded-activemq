@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "app.queue.broker-url",
+      "type": "java.lang.String",
+      "description": "URL for ActiveMQ broker"
+    },
+    {
+      "name": "app.queue.name",
+      "type": "java.lang.String",
+      "description": "Name of the Message Queue"
+    },
+    {
+      "name": "app.queue.listener-concurrency",
+      "type": "java.lang.String",
+      "description": "Maximum number of concurrent listeners for the queue"
+    },
+    {
+      "name": "app.queue.storage-path",
+      "type": "java.lang.String",
+      "description": "File System path for the ActiveMQ local database"
+    },
+    {
+      "name": "app.queue.storage-max-size",
+      "type": "java.lang.String",
+      "description": "Maximum size allowed for the ActiveMQ local database"
+    }
+  ]
+}
