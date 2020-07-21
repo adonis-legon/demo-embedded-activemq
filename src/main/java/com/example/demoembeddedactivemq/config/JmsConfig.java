@@ -1,13 +1,8 @@
 package com.example.demoembeddedactivemq.config;
 
-import java.io.File;
-
 import org.apache.activemq.broker.BrokerService;
 import org.apache.activemq.pool.PooledConnectionFactory;
-import org.apache.activemq.store.PersistenceAdapter;
-import org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.jms.JmsProperties.AcknowledgeMode;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
